@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selling Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Lamb House Goat Farm</h1>
+
+    <div class="menu-toggle" onclick="toggleMenu()">
+        ☰
+    </div>
+
+    <nav id="navbar">
+        <a href="index.html">Home</a>
+        <a href="selling.html">Selling</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+        <a href="cart.html">Cart 🛒</a>
+    </nav>
+</header>
+
+<script src="script.js"></script>
+
+<section class="products">
+    <h2>Goats for Sale</h2>
+
+    <div class="product-box">
+        <img src="images/malabari-goat.jpg" alt="Malabari Goat">
+
+        <h3>Malabari Goat</h3>
+        <p>Healthy farm-raised goat</p>
+        <p>Price: ₹8,000</p>
+
+        <button onclick="addToCart('Malabari Goat', 8000)">
+            Add to Cart
+        </button>
+    </div>
+
+    <div class="product-box">
+        <img src="images/hyderabadi.jpg" alt="Hyderabadi Goat">
+
+        <h3>Hyderabadi Goat</h3>
+        <p>Healthy farm-raised goat</p>
+        <p>Price: ₹16000
+
+        </p>
+
+        <button onclick="addToCart('Hyderabadi Goat', 16000)">
+            Add to Cart
+        </button>
+    </div>
+
+    <div class="product-box">
+        <img src="images/ajmeri.jpg" alt="Ajmeri Goat">
+
+        <h3>Ajmeri Goat</h3>
+        <p>Healthy farm-raised goat</p>
+        <p>Price: ₹22,000</p>
+
+        <button onclick="addToCart('Ajmeri Goat', 22000)">
+            Add to Cart
+        </button>
+    </div>
+
+     <div class="product-box">
+        <img src="images/beetale.jpg" alt="Beetale Goat">
+
+        <h3>Beetale Goat</h3>
+        <p>Healthy farm-raised goat</p>
+        <p>Price: ₹20,000</p>
+
+        <button onclick="addToCart('Beetale Goat', 20000)">
+            Add to Cart
+        </button>
+    </div>
+
+    <div class="product-box">
+        <img src="images/jamunapari-goat.jpg" alt="Jamunapari Goat">
+
+        <h3>Jamunapari Goat</h3>
+        <p>Premium quality breed</p>
+        <p>Price: ₹12,000</p>
+
+        <button onclick="addToCart('Jamunapari Goat', 12000)">
+            Add to Cart
+        </button>
+    </div>
+</section>
+
+<script src="script.js"></script>
+<a href="https://wa.me/917306874214?text=Hello%20Lamb%20House%20Goat%20Farm!%20I%20am%20interested%20in%20your%20products." 
+   class="whatsapp-float" 
+   target="_blank">
+
+    <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" 
+         alt="WhatsApp">
+</a>
+</body>
+</html>
